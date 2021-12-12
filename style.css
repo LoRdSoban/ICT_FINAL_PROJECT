@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    margin-bottom: -1px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #231D1A;
+}
+
+#top{
+    display: flex;
+    justify-content: center;
+    
+    padding-top: 10px;
+
+    width: 100%;
+    color:rgb(15, 12, 12);
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+#heading{
+
+    color: red;
+    font-size: 22px;
+    font-weight: 700;
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+#container4{
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(350px, 1fr));
+    margin: 41px;
+}  
+#row4{
+    width: 100%;
+    height: 360px;
+    border: 2px solid black;
+    background:url('Desserts.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+    border-radius: 15px;
+}
+#row5{
+    width: 29vw;
+    height: 360px;
+    border: 2px solid black;
+    background:url('a2.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+    border-radius: 15px;
+}
+#row6{
+    width: 29vw;
+    height: 360px;
+    border: 2px solid black;
+    background:url('a1.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+    border-radius: 15px;}

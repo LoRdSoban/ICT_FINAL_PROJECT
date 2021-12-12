@@ -1,0 +1,38 @@
+
+nav{
+    background: red;
+    height: 70px;
+    width: 100%;
+    
+}
+
+nav img{
+    padding-top: 8px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 5px;
+
+}
+
+.design{
+
+    color: white;
+    padding: 8px;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav ul li a:hover{
+
+    background-color: rgb(139, 0, 0);
+}
