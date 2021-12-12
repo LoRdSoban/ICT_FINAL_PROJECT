@@ -1,22 +1,105 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+
+<head>
+    <link rel="stylesheet" type="text/css" href="cart.css">
+    <link rel="stylesheet" type="text/css" href="menu.css">
+    <link rel="stylesheet" type="text/css" href="footer.css">
+    <link rel="shortcut icon" type="image/icon" href="img/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Cart</title>
+    <style>
         
-        <script src="" async defer></script>
-    </body>
+    </style>
+</head>
+
+<body>
+
+    <!--MENU BAR-->
+    <nav>
+        <img src="img/logo.png" width="100px">
+        <ul>
+            <li><a class='design' href="index.html">Home</a></li>
+            <li><a class='design' href="categories.html">Categories</a></li>
+            <li><a class='design' href="cart.html">Cart</a></li>
+        </ul>
+    </nav>
+    <!-- /MENU BAR-->
+
+    <div class="header">
+        <div id="top">
+            <span id="heading">Categories<span>
+        </div>
+        <h5 class="Action">Remove all</h5>
+    </div>
+    <div>
+        <div class="cart-items">
+            <div class="image-box">
+                <img src="C:\Users\Dell\Downloads\burger.jpg" style="border-radius: 5%" style="background-image: none"</img>
+            </div>
+            <div>
+                <h2 class="title">Fast Food</h2>
+            </div>
+            <div class="counter">
+                <div class="btn">+</div>
+                <div class="count">2</div>
+                <div class="btn">-</div>
+            </div>
+            <div class="prices">
+                <div class="amount">$2.99</div>
+                <div class="save"><u>Save for later</u></div>
+                <div class="remove"><u>Remove</u></div>
+            </div>
+        </div>
+        <div class="cart-items">
+            <div class="image-box2">
+                <img src="C:\Users\Dell\Downloads\drinks.jpg" style="border-radius: 5%" </img>
+            </div>
+            <div>
+                <h2 class="title">Drinks</h2>
+            </div>
+            <div class="counter2">
+                <div class="btn">+</div>
+                <div class="count">1</div>
+                <div class="btn">-</div>
+            </div>
+            <div class="prices2">
+                <div class="amount">$1.99</div>
+                <div class="save"><u>Save for later</u></div>
+                <div class="remove"><u>Remove</u></div>
+            </div>
+        </div>
+        <div class="cart-items">
+            <div class="image-box3">
+                <img src="C:\Users\Dell\Downloads\dessert.jpg" style="border-radius: 5%" </img>
+            </div>
+            <div>
+                <h2 class="title">Dessert</h2>
+            </div>
+            <div class="counter3">
+                <div class="btn">+</div>
+                <div class="count">3</div>
+                <div class="btn">-</div>
+            </div>
+            <div class="prices3">
+                <div class="amount">$4.25</div>
+                <div class="save"><u>Save for later</u></div>
+                <div class="remove"><u>Remove</u></div>
+            </div>
+        </div>
+        <hr>
+        <div>
+            <div class="checkout">
+                <div class="total">
+                    <div>
+                        <div class="Subtotal">Sub-Total</div>
+                        <div class="items">3 items</div>
+                    </div>
+                    <div class="total-amount">$9.23</div>
+                </div>
+                <button class="button">Checkout</button>
+            </div>
+</body>
+
 </html>

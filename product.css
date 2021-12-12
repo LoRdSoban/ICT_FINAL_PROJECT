@@ -1,0 +1,77 @@
+
+
+.product .box-container .box{
+    background-color: red;
+     height: 400px;
+     width: 270px;
+     border-radius: 11px;
+    border-style: solid; 
+    top: 2rem;
+}
+
+
+.product .headings{
+    text-align: center;
+    font-size:xx-large;
+    color:red;
+}
+
+.product .headings span{
+    color:red;
+}
+
+.product .box-container 
+{
+    padding: 2.5rem;
+    display:flex;
+    flex-wrap :wrap;
+    gap:4rem;
+
+}
+
+.product .box-container .box{
+    position: relative;
+    flex:20rem;
+    text-align: center;
+    padding: 2rem;
+    border :.1rem solid rgb(red, green, blue);
+    border-radius:.5rem;
+    overflow: hidden;
+    position: default;
+}
+
+.product .box-container  .discount
+{
+    position:absolute;
+    top:2rem;left:5.5rem;
+    background-color :tomato;
+    padding:0.5rem 0.5rem;
+}
+
+.product .box-container .box .stars i{ 
+    padding:1rem .1rem;
+    color:gold;
+    
+}
+
+.product .box-container .box .price span{ 
+ color:#231D1A;
+ text-decoration: line-through;
+}
+.product .box-container .box .quantity{ 
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding-top: 1rem;
+}
+.product .box-container .box .quantity span{ 
+    padding:0.5rem;
+}
+.product .box-container .box .quantity input{
+    border:.1rem solid rgb(red, green, blue) ;
+    padding: 0.5rem;
+    background:tomato;
+}
+.product .box-container .box .btn{ 
+    display:block;
+}

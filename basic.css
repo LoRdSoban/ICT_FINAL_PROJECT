@@ -1,0 +1,35 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    margin-bottom: -1px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #231D1A;
+}
+
+/* MAIN HEADING ON ALL PAES EXCEPT HOME */
+#top{
+    display: flex;
+    justify-content: center;
+    
+    padding-top: 30px;
+
+    width: 100%;
+
+}
+
+#heading{
+
+    color: red;
+    font-size: 50px;
+    font-weight: 700;
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+
+}
+/********************************************/
