@@ -1,6 +1,22 @@
-.footer-container{
+
+/* TO KEEP THE FOOTER AT THE END OF PAGE */
+
+html, body{
+    height: 100%;
+}
+.main{
+    min-height: 100%;
+    padding-bottom: 110px;
+}
+
+/*********************************************/
+
+
+.footer{
     position: relative;
-    margin-left: -110px;
+    margin-top: -110px;
+}
+.footer-container{
 
     background-color: red;
     width: 100%;
