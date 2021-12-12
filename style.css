@@ -15,54 +15,64 @@ body{
     display: flex;
     justify-content: center;
     
-    padding-top: 10px;
+    padding-top: 30px;
 
     width: 100%;
-    color:rgb(15, 12, 12);
-    font-family: 'Ubuntu Mono', monospace;
+
 }
 
 #heading{
 
     color: red;
-    font-size: 22px;
+    font-size: 50px;
     font-weight: 700;
     font-style: italic;
     font-family: 'Montserrat', sans-serif;
 
 }
 
-#container4{
+#container{
     display: grid;
-    grid-template-rows: repeat(auto-fit, minmax(350px, 1fr));
-    margin: 41px;
+    grid-template-rows: repeat(auto-fit, minmax(150px, 1fr));
+    margin-top: 50px;
+    margin-right: 30px;
 }  
-#row4{
+.row{
+    max-width: 100%;
     width: 100%;
-    height: 360px;
-    border: 2px solid black;
-    background:url('Desserts.jpg') no-repeat center center/cover;
+    height: 100px;
+    background-color: red;
+    
     display: flex;
-    justify-content:center;
-    align-items:flex-end;
-    border-radius: 15px;
+    justify-content: center;
+    border-radius: 0 15px 15px 0;
 }
-#row5{
-    width: 29vw;
-    height: 360px;
-    border: 2px solid black;
-    background:url('a2.jpg') no-repeat center center/cover;
-    display: flex;
-    justify-content:center;
-    align-items:flex-end;
-    border-radius: 15px;
+
+.row:hover{
+    box-shadow: 0px 0px 10px white;
+    background-color: rgb(197, 0, 0);
 }
-#row6{
-    width: 29vw;
-    height: 360px;
-    border: 2px solid black;
-    background:url('a1.jpg') no-repeat center center/cover;
-    display: flex;
-    justify-content:center;
-    align-items:flex-end;
-    border-radius: 15px;}
+
+.category-heading{
+
+    color: white;
+    font-size: 34px;
+    font-weight: 500;
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+
+
+    padding-left: 30px;
+    align-self: center;
+}
+
+.category-img{
+    padding: 10px;
+    align-self: center; 
+
+}
+
+.category-img img{
+    width: 100px;
+    
+}
