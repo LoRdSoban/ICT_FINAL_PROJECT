@@ -36,3 +36,8 @@ nav ul li a:hover{
 
     background-color: rgb(139, 0, 0);
 }
+
+nav ul li a:focus{
+
+    background-color: rgb(255, 144, 144);
+}
