@@ -1,60 +1,41 @@
 *{
-    padding: 0;
-    margin: 0;
-    margin-bottom: -1px;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif; 
 }
 
 
 
-body {
-    background-color: #231D1A;
-    background: linear-gradient(to bottom right);
-    justify-content: center;
-
+.main{
+    margin-bottom: 110px;
 }
 
-.header {
-    margin: auto;
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-
+img{
+    max-width: 90%;
 }
 
-.Heading {
-    font-size: 20px;
-    font-weight: 700;
-    color: red;
-}
-
-.Action {
-    color: red;
-    cursor: pointer;
-    border-bottom: 1px solid red;
-}
 
 .Cart-Items {
+    margin:30px 30px 50px 0;
+    padding-right: 10px;
+    background-color: red;
+    border-radius: 0 20px 20px 0;
     height: 30%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-style: corner;
 }
 
 .image-box {
     width: 15%;
     text-align: center;
     cursor: pointer;
+    border-radius: 50%;
 
 }
 
 .title {
     font-size: 26px;
     font-weight: 800;
-    color: red;
+    color: white;
 }
 
 .counter {
@@ -68,7 +49,7 @@ body {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: #d9d9d9;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,13 +61,13 @@ body {
 .count {
     font-size: 20px;
     font-weight: 900;
+    color: white;
 
 }
 
 .prices {
     width: 10%;
-    height: 60%;
-    padding-left: 40px;
+
 }
 
 .amount {
@@ -98,122 +79,20 @@ body {
 .save {
     font-size: 14px;
     font-weight: 600;
-    color: red;
+
+    color: black;
     cursor: pointer;
 }
 
 .remove {
     font-size: 14px;
     font-weight: 600;
-    color: red;
+    color: black;
     cursor: pointer;
 }
 
-.image-box2 {
-    height: 80%;
-    width: 15%;
-    text-align: center;
-    cursor: pointer;
-    border-left-color: #231D1A
-}
 
-.title {
-    font-size: 26px;
-    font-weight: 800;
-    color: red;
-}
 
-.counter2 {
-    width: 8%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.count {
-    font-size: 20px;
-    font-weight: 900;
-    color: white;
-}
-
-.prices2 {
-    width: 10%;
-    height: 40%;
-    padding-left: 40px;
-}
-
-.amount {
-    font-size: 24px;
-    font-weight: 800;
-    color: red;
-}
-
-.save {
-    font-size: 14px;
-    font-weight: 600;
-    color: Blue;
-    cursor: pointer;
-}
-
-.remove {
-    font-size: 14px;
-    font-weight: 600;
-    color: red;
-    cursor: pointer;
-}
-
-.image-box3 {
-    height: 100%;
-    width: 15%;
-    text-align: center;
-    cursor: pointer;
-    border-radius: 50%;
-}
-
-.title {
-    font-size: 26px;
-    font-weight: 800;
-    color: red;
-}
-
-.counter3 {
-    width: 8%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.count {
-    font-size: 20px;
-    font-weight: 900;
-    color: red;
-}
-
-.prices3 {
-    width: 10%;
-    height: 40%;
-    padding-left: 40px;
-}
-
-.amount {
-    font-size: 24px;
-    font-weight: 800;
-    color: red;
-}
-
-.save {
-    font-size: 14px;
-    font-weight: 600;
-    color: Blue;
-    cursor: pointer;
-}
-
-.remove {
-    font-size: 14px;
-    font-weight: 600;
-    color: red;
-    cursor: pointer;
-}
 
 hr {
     width: 62%;
@@ -223,7 +102,9 @@ hr {
 .checkout {
     float: right;
     margin-right: 5%;
+    margin-bottom: 20px;
     width: 20%;
+
 }
 
 .total {
@@ -251,15 +132,19 @@ hr {
 }
 
 .button {
-    margin-top: 5px;
-    width: 100%;
+    margin-top: 10px;
+    width: 70%;
     height: 40px;
     border: none;
-    background: linear-gradient(to bottom right);
-    background-color: skyBlue;
+
+    background-color: white;
     border-radius: 20px;
     cursor: pointer;
     font-size: 16px;
     font-weight: 600;
     color: black;
+}
+
+.button:hover{
+    background-color: rgb(173, 173, 173);
 }
