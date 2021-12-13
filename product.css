@@ -24,6 +24,10 @@
 
 }
 
+.product .box-container .box:hover{
+    background-color: rgb(148, 0, 0);
+}
+
 .product .box-container .box img{
     height: 150px;
     padding-bottom: 10px;
