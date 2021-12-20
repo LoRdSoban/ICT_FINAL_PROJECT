@@ -28,6 +28,7 @@
     top: 50%;
     left: 50px;
 }
+
 .main_heading_red{
     text-align: left;
     color: red;
@@ -71,6 +72,7 @@
     flex: auto;
     padding: 30px;
 }
+
 .column_img{
     width: 100%;
     border-radius: 10px;
@@ -86,6 +88,7 @@
     flex: 70%;
     padding: 30px;
 }
+
 .column2_1{
     
     width: 100%;
@@ -93,6 +96,7 @@
     padding: 30px;
     margin-top: 10%;
 }
+
 .column2_img{
     width: 100%;
     border-radius: 10px;
