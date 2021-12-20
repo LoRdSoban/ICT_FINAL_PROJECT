@@ -16,6 +16,7 @@ html, body{
     position: relative;
     margin-top: -110px;
 }
+
 .footer-container{
 
     background-color: red;
@@ -64,7 +65,6 @@ html, body{
 
 .footer-nav-icons li{
     display: inline-block;
-    
 }
 
 .footer-img{
@@ -76,7 +76,7 @@ html, body{
 
 .footer-img:hover{
     box-shadow: 0px 0px 10px rgb(177, 177, 177);
-    
+
 }
 
 .footer-right{

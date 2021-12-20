@@ -18,9 +18,7 @@
     min-width: 400px;
     background-color: red;
 
-
     border-radius:.5rem;
-    overflow: hidden;
 
 }
 
@@ -41,10 +39,12 @@ span, h3, .price{
 h3{
     font-style: italic;
 }
+
 .product .box-container .discount
 {
     position:absolute;
-    top:2rem;left:5.5rem;
+    top:2rem;
+    left:5.5rem;
     background-color :tomato;
     padding:0.5rem 0.5rem;
 }
