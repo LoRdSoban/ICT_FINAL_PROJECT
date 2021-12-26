@@ -1,5 +1,5 @@
 *{
-    font-family: 'Montserrat', sans-serif; 
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -8,9 +8,7 @@
     margin-bottom: 110px;
 }
 
-img{
-    max-width: 90%;
-}
+
 
 
 .Cart-Items {
@@ -32,6 +30,10 @@ img{
 
 }
 
+img{
+    max-width: 90%;
+}
+
 .title {
     font-size: 26px;
     font-weight: 800;
@@ -39,7 +41,7 @@ img{
 }
 
 .counter {
-    width: 8%;
+    width: 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;

@@ -4,13 +4,11 @@
     padding: 2.5rem;
     display:flex;
     justify-content:center;
-    gap:4rem;
 
 }
 
 .product .box-container .box{
-    position: relative;
-    flex:20rem;
+
     
     padding: 2rem;
 
@@ -24,13 +22,11 @@
 
 }
 
-.box-right{
+.box-left{
     text-align: center;
-    float: left;
     flex:70%
 }
-.box-left{
-    float: left;
+.box-right{
     flex:30%
 }
 
@@ -49,13 +45,6 @@ span, .product-name, .price{
     font-size: 30px;
     font-weight: 700;
     font-style: italic;
-}
-.product .box-container .discount
-{
-    position:absolute;
-    top:2rem;left:5.5rem;
-    background-color :tomato;
-    padding:0.5rem 0.5rem;
 }
 
 .product .box-container .box .stars i{ 

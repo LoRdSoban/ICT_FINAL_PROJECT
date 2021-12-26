@@ -58,20 +58,3 @@ h3{
 .product .box-container .box .price span{ 
  text-decoration: line-through;
 }
-.product .box-container .box .quantity{ 
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    padding-top: 1rem;
-}
-.product .box-container .box .quantity span{ 
-    padding:0.5rem;
-}
-.product .box-container .box .quantity input{
-    border:.1rem solid rgb(red, green, blue) ;
-    padding: 0.5rem;
-    background:tomato;
-}
-.product .box-container .box .btn{ 
-    display:block;
-}
